@@ -4,7 +4,7 @@ Terraform code for creating EKS Cluster with all the pre-requisite Using Terrafo
 ![image](https://github.com/user-attachments/assets/7a7e0023-0e56-4022-8943-c293319e4958)
 
 
-Creating it through CLI commands
+# Creating it through CLI commands
 
 Install the cluster
 ```
@@ -126,4 +126,3 @@ eksctl create addon --name aws-ebs-csi-driver --cluster <YOUR-CLUSTER-NAME> --se
 
 **References**:
 https://repost.aws/knowledge-center/eks-persistent-storage
-![image](https://github.com/user-attachments/assets/77927afb-01fd-4aff-aa0a-98dd5cbc883b)
